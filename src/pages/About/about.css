@@ -1,0 +1,106 @@
+.containerAbout{
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(to bottom, #0b0bf674, #fff);
+}
+
+.titleAbout{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titleAbout h1{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.line{
+    justify-items: center;
+    width: 50px;
+    height: 6px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.paragraphAbout{
+    margin-top: 30px;
+    color: #555;
+    font-size: larger;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.aboutLeft{
+    padding: 20px;
+   
+    width: 50%;
+}
+
+.aboutLeft h2{
+    padding: 15px;
+    font-size: 2rem;
+}
+
+.aboutLeft p {
+    padding: 15px;
+    font-size: 1.2rem;
+    color: #555;
+
+}
+
+.aboutRight{
+    margin-top:38px;
+    width: 40%;
+    font-size: 1.2rem;
+    margin-left: 50px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row ;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.skillsContainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.skills{
+    background-color: #dcd2d2;
+    color: #555;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 15px 15px 0;
+}
+
+.buttonContact{
+    cursor: pointer;
+    background-color: #0b0bf6ad;
+    margin: 15px;
+    padding: 10px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 130px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15)
+
+}
+.buttonContact:hover{
+    background-color: #0b0bf674;
+    transition: 0.30s;
+}

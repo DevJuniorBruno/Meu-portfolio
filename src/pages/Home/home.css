@@ -11,7 +11,7 @@
 
 
 .home{
-    background: linear-gradient(to bottom, #ededf4, #fff);
+    background: linear-gradient(to bottom, #0b0bf674, #fff);
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -23,22 +23,15 @@
     font-size: 3.5rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.home p{
+.paragraph{
     font-size: 1.5rem;
     width: 90%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-left: 3em;
-}
-
-.button{
-    background-color: blue;
-    cursor: pointer;
-    margin-top: 150px;
-    width: 150px;
-    height: 30px;
-    border-radius: 10px;
+    margin-bottom: 150px;
 }
 
 .socialRedes{
@@ -51,7 +44,6 @@
     width: 50px;
     height: 150px;
     position: absolute;
-    padding-right: 20px;
     cursor: pointer;
 }
 
@@ -76,6 +68,23 @@
 .h1{
     display: none;
 
+}
+
+.buttonProjects{
+    cursor: pointer;
+    background-color: #0b0bf6ad;
+    padding: 10px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 130px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15)
+
+}
+.buttonProjects:hover{
+    background-color: #0b0bf674;
+    transition: 0.30s;
 }
 
 @media (max-width:840px) {

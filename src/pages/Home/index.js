@@ -1,10 +1,12 @@
 import './home.css';
 import {Helmet} from 'react-helmet';
-import React, { useRef} from 'react';
+import React,  {useState, useRef} from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import Typical from 'react-typical';
+import { Link } from 'react-router-dom';
 
  function Home(){
+
     return(
         <>
         <Helmet>
@@ -49,13 +51,16 @@ import Typical from 'react-typical';
                        wrapper='h1'
                        style={{ willChange: 'transform' }}
                         />
-
-                        <p>
+                        <div className='paragraph' >
+                            <p>
                         A Fullstackjr professional qualified to understand and act in all layers of the development  of a project,  </p>
                         <p>  from the creation of internal servers to the communication interfaces with the end user.
-                        </p> 
-                        
-                        <button className='button'>Projects</button>
+                        </p>  
+                        </div>
+                       
+
+                       <Link to='projects'> <button className='buttonProjects' > PROJECTS </button> </Link>
+
                      <div className='socialRedesAfter' >
                         <div>
                            <a href='https://github.com/DevJuniorBruno' target='_blank' >
