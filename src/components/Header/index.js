@@ -1,7 +1,7 @@
 import './header.css'
 import React, {useState} from 'react';
-import {Link} from "react-router-dom"
-import logo from '../../img/logo.png'
+import {Link} from "react-router-dom";
+import Logo from '../../assets/img/logo.png';
 
 function Header() {
 
@@ -9,7 +9,7 @@ function Header() {
 
     return(
         <div className="navbar">
-            <span className='spanLogo'><Link to="/" ><img className='nav_logo' to='/' src={ logo } alt="logo-restaurante" />BRUNO ROSA</Link> </span>
+            <span className='spanLogo'><Link to="/" ><img className='nav_logo' to='/' src={ Logo } alt="logo-restaurante" />BRUNO ROSA</Link> </span>
             <div className={`nav_links ${isOpen && "open"}`}>
                 <Link to='/'>HOME</Link>
                 <Link to='about'>ABOUT</Link>

@@ -1,10 +1,12 @@
+
+
 .containerAbout{
-    padding-top: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     background: linear-gradient(to bottom, #0b0bf674, #fff);
+
 }
 
 .titleAbout{
@@ -24,7 +26,7 @@
     justify-items: center;
     width: 50px;
     height: 6px;
-    background-color: blue;
+    background-color: rgb(232, 232, 232);
     border-radius: 10px;
     margin-top: 30px;
 }

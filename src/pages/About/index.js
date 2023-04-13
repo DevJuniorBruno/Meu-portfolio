@@ -3,7 +3,8 @@ import {Link} from 'react-router-dom';
 
 function About() {
     return(
-        <div className="containerAbout" >
+        <div className='container'>
+            <div className="containerAbout" >
            <div className='titleAbout'>
             <h1>
                 ABOUT ME
@@ -65,6 +66,8 @@ function About() {
 
            </div>
         </div>
+        </div>
+        
       
     )
 }
