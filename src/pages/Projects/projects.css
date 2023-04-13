@@ -1,0 +1,37 @@
+.projects{
+    background: linear-gradient(to bottom, #0b0bf674, #fff);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+}
+.titleProjects{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titleProjects h1{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.projectsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top:100px;
+}
+
+.imageProjects{
+    width: 300px;
+}
+.webVet{
+    width: 500px;
+    border: #0b0bf674;
+    border-radius: 10px;
+}
+
+
+
