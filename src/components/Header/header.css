@@ -32,7 +32,13 @@
     color: #000;
     font-size: larger;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.3s;
 }
+
+.spanLogo a:hover{
+    color: #0b0bf6ad;
+}
+
 
 .nav_links{
     display: flex;
@@ -53,6 +59,7 @@
 
 .nav_links a:hover{
   opacity: 1;
+  color:#0b0bf6ad;
 }
 .nav_links a::before{
 content: "";
@@ -61,7 +68,7 @@ left: 0;
 bottom: 0;
 width:0 ;
 height: 2px;
-background: #000;
+background: #0b0bf6ad;
 transition: all .45s;
 }
 

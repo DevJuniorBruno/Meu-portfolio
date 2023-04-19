@@ -1,5 +1,6 @@
 .projects{
-    background: linear-gradient(to bottom, #0b0bf674, #fff);
+    background-image: url('../../assets//img/backgroundUpdate.png');
+    background: linear-gradient(to bottom, #f5f5f6, #0c0c0cad);
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -20,18 +21,78 @@
 .projectsContainer{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top:100px;
+}
+.projectsContainer h1{
+    margin-top: 20px;
+}
+.buttonMoreSee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #0b0bf6ad;
+    margin: 15px;
+    padding: 15px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 180px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+    width: 130px;
+}
+
+.buttonMoreSee:hover{
+        background-color: #0b0bf674;
+        transition: 0.30s;
+}
+
+.underConstruction{
+    width: 700px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.buttonUnderContruction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #0b0bf6ad;
+    margin: 15px;
+    padding: 15px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 180px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+    width: 200px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .imageProjects{
     width: 300px;
 }
 .webVet{
-    width: 500px;
+    width: 800px;
     border: #0b0bf674;
     border-radius: 10px;
+    padding: 20px;
 }
 
-
-
+.socialRedesProjects{
+        background-color:#ededf4 ;
+        display: flex;
+        justify-content: space-evenly;
+        align-items:center;
+        width: 100%;
+        height: 60px;
+        cursor: pointer;
+    }

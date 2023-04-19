@@ -6,13 +6,12 @@
 
 .container{
     padding-top: 95px;
-    background-image: url('../../assets//img/background.jpg');
+    background-image: url('../../assets//img/backgroundUpdate.png');
 }
 
-
-
 .home{
-    background: linear-gradient(to bottom, #0b0bf674, #fff);
+    
+    background: linear-gradient(to bottom, #f5f5f6, #0c0c0cad);
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -32,7 +31,7 @@
     justify-content: center;
     align-items: center;
     padding-left: 3em;
-    margin-bottom: 150px;
+    margin-bottom: 40px;
 }
 
 .socialRedes{
@@ -53,7 +52,7 @@
     display: none;
     justify-content: space-evenly;
     align-items:center;
-    margin-top: 100px;
+    margin-top: 50px;
     width: 100%;
     height: 60px;
     cursor: pointer;
@@ -71,17 +70,20 @@
 
 }
 
+
 .buttonProjects{
     cursor: pointer;
-    background-color: #0b0bf6ad;
-    padding: 10px;
-    font-size: 15px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    width: 130px;
-    border-radius: 10px;
-    color: white;
-    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15)
-
+        background-color: #0b0bf6ad;
+        margin: 15px;
+        padding: 15px;
+        font-size: 15px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        width: 180px;
+        border-radius: 10px;
+        color: white;
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+        width: 130px;
+        margin-top:150px;
 }
 .buttonProjects:hover{
     background-color: #0b0bf674;
@@ -92,6 +94,10 @@
 
     .typical{
         display: none;
+    }
+
+    .home{
+        height: 100%;
     }
 
     .h1{

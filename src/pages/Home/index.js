@@ -56,10 +56,10 @@ import { Link } from 'react-router-dom';
                         A Fullstackjr professional qualified to understand and act in all layers of the development  of a project,  </p>
                         <p>  from the creation of internal servers to the communication interfaces with the end user.
                         </p>  
+                       <Link to='projects'> <button className='buttonProjects' > PROJECTS </button> </Link>
                         </div>
                        
 
-                       <Link to='projects'> <button className='buttonProjects' > PROJECTS </button> </Link>
 
                      <div className='socialRedesAfter' >
                         <div>

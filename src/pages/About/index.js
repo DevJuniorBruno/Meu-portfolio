@@ -1,4 +1,5 @@
 import './about.css';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import {Link} from 'react-router-dom';
 
 function About() {
@@ -34,8 +35,6 @@ function About() {
                     <p>
                     I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.  
                     </p>
-
-                    <Link to='contact'><button className='buttonContact'>Contact</button></Link>
                 </div>
 
                 <div className='aboutRight'>
@@ -62,10 +61,34 @@ function About() {
                 <div className='skills'>PostgreeSQL</div>
                 </div>
                 </div>
-            </main>
 
+                
+
+            </main>
+            <div>
+                <Link to='contact'><button className='buttonContact'>Contact</button></Link>
+                </div>
            </div>
+
         </div>
+        <div className='socialRedesProjects' >
+                        <div>
+                           <a href='https://github.com/DevJuniorBruno' target='_blank' >
+                            <FaGithub size='32px' color="#000" />
+                            </a>
+                        </div>
+
+                        <div>
+                           <a href='https://www.linkedin.com/in/bruno-rosa-6956871b5/' target='_blank' >
+                            <FaLinkedin size='32px' color='#000' />
+                           </a>
+                        </div>
+
+                        <div>
+                            teste
+                        </div>
+
+                    </div>
         </div>
         
       
